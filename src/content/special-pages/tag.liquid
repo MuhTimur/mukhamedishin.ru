@@ -16,10 +16,10 @@ eleventyComputed:
 	{% include 'page-title' title:title %}
 	<main>
 		{% assign articles = collections.articles | byTag: tag %}
-		<ul class="articles">
+		<div class="articles">
 			{% for article in articles %}
     			{% include 'article-card' article:article %}
 			{% endfor %}
-		</ul>
+		</div>
 	</main>
 </div>

@@ -12,10 +12,10 @@ eleventyComputed:
 <section>
 	{% include 'page-title' title:title %}
 	<main>
-		<ul class="articles">
+		<div class="articles">
 			{% for article in articles %}
     			{% include 'article-card' article:article %}
 			{% endfor %}
-		</ul>
+		</div>
 	</main>
 </section>
