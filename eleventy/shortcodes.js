@@ -45,5 +45,6 @@ module.exports = {
 		)[0];
 
 		return owner[key];
-	}
+	},
+	getCurrentYear: () => `${new Date().getFullYear()}`
 };

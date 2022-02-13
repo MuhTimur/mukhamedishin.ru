@@ -50,6 +50,7 @@ module.exports = function(config) {
 	config.addShortcode("getUrl", shortcodes.postUrl);
 	config.addShortcode("getOwnerInfo", shortcodes.getOwnerInfo);
 	config.addShortcode("isOldPost", shortcodes.isOldPost);
+	config.addShortcode("getCurrentYear", shortcodes.getCurrentYear);
 
 	// *** Filters
 	// Dates
