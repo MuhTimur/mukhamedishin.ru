@@ -1,4 +1,5 @@
-const { parseISO, format, formatISO, max } = require("date-fns");
+const { parseISO, format, formatISO, max, ru } = require("date-fns");
+const ruLocale = require("date-fns/locale/ru");
 const { utcToZonedTime } = require("date-fns-tz");
 
 module.exports = {
@@ -21,7 +22,7 @@ module.exports = {
 			module.exports.prepareDate(d),
 			"Asia/Kolkata"
 		);
-		return format(date, "d MMMM yyyy");
+		return format(date, "d MMMM yyyy", { locale: ruLocale });
 	},
 	dateInISO8601: d => {
 		return formatISO(module.exports.prepareDate(d));
