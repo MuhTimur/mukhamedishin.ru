@@ -1,14 +1,14 @@
 module.exports = [
 	{
-		title: "Home",
+		title: "Главная",
 		link: "/"
 	},
 	{
-		title: "Articles",
+		title: "Блог",
 		link: "/articles/"
 	},
 	{
-		title: "About",
+		title: "Обо мне",
 		link: "/about/"
 	}
 ];

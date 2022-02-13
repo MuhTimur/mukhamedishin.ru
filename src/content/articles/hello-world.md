@@ -6,7 +6,7 @@ draft: false
 
 title: "Hello world!"
 tags: ["basics"]
-author: 'jane-doe'
+author: 'timur'
 ---
 
 This is ~~some~~ content.

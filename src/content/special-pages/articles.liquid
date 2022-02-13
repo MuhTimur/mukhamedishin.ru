@@ -1,21 +1,21 @@
 ---
 layout: default
-title: "Articles"
+title: "Блог"
 pagination:
   data: collections.articles
   size: 10
   alias: articles
 permalink: "/articles/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/{% endif %}"
 eleventyComputed:
-  content-description: "Articles by {% getOwnerInfo 'name' %}"
+  content-description: "Записи блоки автора {% getOwnerInfo 'name' %}"
 ---
 <section>
 	{% include 'page-title' title:title %}
 	<main>
-		<ul class="articles">
+		<div class="articles">
 			{% for article in articles %}
     			{% include 'article-card' article:article %}
 			{% endfor %}
-		</ul>
+		</div>
 	</main>
 </section>
