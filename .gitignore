@@ -1,3 +1,16 @@
 .vscode
 node_modules
 dist
+.DS_Store
+src/.DS_Store
+src/assets/.DS_Store
+src/assets/img/.DS_Store
+src/assets/img/articles/.DS_Store
+src/assets/img/articles/2022/.DS_Store
+src/assets/img/articles/2022/02/.DS_Store
+src/assets/img/articles/2022/02/altai/.DS_Store
+src/content/.DS_Store
+src/content/images/.DS_Store
+src/content/images/2022/.DS_Store
+src/content/images/2022/02/.DS_Store
+src/content/images/2022/02/altai/.DS_Store
